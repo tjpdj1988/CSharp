@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2ed05611e6cd453b90eff4669d3e2c79" Name="Diagram1">
+        <EntityTypeShape EntityType="Northwind40Model.Categories" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Northwind40Model.Customers" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Northwind40Model.Employees" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Northwind40Model.Order_Details" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Northwind40Model.Orders" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Northwind40Model.Products" Width="1.5" PointX="3" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Northwind40Model.Shippers" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="Northwind40Model.Suppliers" Width="1.5" PointX="0.75" PointY="18.25" IsExpanded="true" />
+        <AssociationConnector Association="Northwind40Model.Products_FK01" ManuallyRouted="false" />
+        <AssociationConnector Association="Northwind40Model.Orders_FK00" ManuallyRouted="false" />
+        <AssociationConnector Association="Northwind40Model.Orders_FK02" ManuallyRouted="false" />
+        <AssociationConnector Association="Northwind40Model.Order_Details_FK00" ManuallyRouted="false" />
+        <AssociationConnector Association="Northwind40Model.Order_Details_FK01" ManuallyRouted="false" />
+        <AssociationConnector Association="Northwind40Model.Orders_FK01" ManuallyRouted="false" />
+        <AssociationConnector Association="Northwind40Model.Products_FK00" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
